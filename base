@@ -4,3 +4,12 @@ base nav panel
   <a href="#contact">Contact</a>
 </div>
 ///////////////////////////////////////////////////////////////////
+{% extends "vetoffice/base.html" %} - to add base template to new html template
+
+{% extends "vetoffice/base.html" %}
+{% block content %}
+<p>This will go inside the body</p>
+<p>This will also be inside the body</p>
+{% endblock %}
+
+///////////////////////////////////////////////////////////////////////////////
